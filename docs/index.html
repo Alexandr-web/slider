@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Slider</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <div class="wrapper__slider">
+        <div class="wrapper__slider-bg"></div>
+        <ul class="wrapper__slider-slides">
+          <li class="wrapper__slider-slides-item" style="background-image: url(./images/img1.jpg);"></li>
+          <li class="wrapper__slider-slides-item" style="background-image: url(./images/img2.jpg);"></li>
+          <li class="wrapper__slider-slides-item" style="background-image: url(./images/img3.jpg);"></li>
+          <li class="wrapper__slider-slides-item" style="background-image: url(./images/img4.jpg);"></li>
+        </ul>
+        <div class="wrapper__slider-controls">
+          <button class="wrapper__slider-controls-btn" data-btn-controls="prev"></button>
+          <div class="wrapper__slider-controls-info">
+            <span class="wrapper__slider-controls-info-slides"></span>
+            <div class="wrapper__slider-controls-info-progress">
+              <div class="wrapper__slider-controls-info-progress-line"></div>
+            </div>
+          </div>
+          <button class="wrapper__slider-controls-btn" data-btn-controls="next"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/main.js"></script>
+</body> 
+</html>
